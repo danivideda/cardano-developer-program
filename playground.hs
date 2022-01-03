@@ -24,3 +24,13 @@ somefunc = otherfunc True
  where
   otherfunc :: Bool -> Int -> Int
   otherfunc n x = if n then 1 else 0
+
+data CekDoubleKah = BukanDouble | BenarDouble Double deriving (Show)
+
+safeDiv :: Double -> Double -> CekDoubleKah
+safeDiv _ 0 = BukanDouble
+safeDiv x y = BenarDouble (x / y)
+
+failureToZero :: CekDoubleKah -> Double
+failureToZero BukanDouble = 0
+failureToZero (BenarDouble d) = d
