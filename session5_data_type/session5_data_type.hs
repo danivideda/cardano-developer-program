@@ -24,3 +24,31 @@ dummyTree = Node (Leaf 2) 1 (Node (Leaf 4) 3 (Leaf 5))
 findInTree :: Int -> Tree -> Bool
 findInTree i (Leaf j) = i == j
 findInTree i (Node left j right) = i == j || findInTree i left || findInTree i right
+
+-- LOG MESSAGE
+data MessageType
+    = Info
+    | Warning
+    | Error Int
+    deriving (Show, Eq)
+
+type TimeStamp = Int
+
+data LogMessage
+    = LogMessage MessageType TimeStamp String
+    | Unknown String
+    deriving (Show, Eq)
+
+parseLog :: String -> LogMessage
+parseLog logContents = case (words logContents) of
+    "I" : timeStamp : stringMessage ->
+        LogMessage Info (read timeStamp) (unwords stringMessage)
+    "W" : timeStamp : stringMessage ->
+        LogMessage Warning (read timeStamp) (unwords stringMessage)
+    "E" : errorCode : timeStamp : stringMessage ->
+        let arg1 = Error (read errorCode)
+            arg2 = read timeStamp
+            arg3 = unwords stringMessage
+         in LogMessage arg1 arg2 arg3
+    stringMessage ->
+        Unknown (unwords stringMessage)
