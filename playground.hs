@@ -34,3 +34,11 @@ safeDiv x y = BenarDouble (x / y)
 failureToZero :: CekDoubleKah -> Double
 failureToZero BukanDouble = 0
 failureToZero (BenarDouble d) = d
+
+data Tree
+  = Node Int Tree Tree
+  | Leaf Int
+  deriving (Show)
+
+branch1 = Node 5 (Leaf 2) (Leaf 1)
+branch2 = Node 5 branch1 (Leaf 10)
