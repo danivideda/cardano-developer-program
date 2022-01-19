@@ -42,3 +42,18 @@ data Tree
 
 branch1 = Node 5 (Leaf 2) (Leaf 1)
 branch2 = Node 5 branch1 (Leaf 10)
+
+func :: [Int] -> [Int]
+func [] = []
+func (x : xs) = x : xs
+
+data Building
+  = Skyscraper
+      { name :: String
+      , height :: Int
+      }
+  | House
+      { name :: String
+      , familyCount :: Int
+      }
+  deriving (Show)
