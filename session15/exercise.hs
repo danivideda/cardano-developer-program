@@ -1,3 +1,5 @@
+import System.IO (hFlush, stdout)
+
 main :: IO ()
 main = addList []
 
@@ -8,18 +10,21 @@ data Murid = Murid
     }
     deriving (Show)
 
+prompt :: String -> IO String
+prompt text = do
+    putStr text
+    hFlush stdout
+    getLine
+
 addList :: [Murid] -> IO ()
 addList oldValue = do
     putStrLn "\n(a) Tambah Murid (b) Cetak List Murid (q) Keluar"
     choice <- getLine
     case choice of
         "a" -> do
-            putStr "Nama: "
-            nama <- getLine
-            putStr "Kelas: "
-            kelas <- getLine
-            putStr "Nilai: "
-            nilai <- getLine
+            nama <- prompt "Nama: "
+            kelas <- prompt "Kelas: "
+            nilai <- prompt "Nilai: "
             let newValueList =
                     oldValue
                         ++ [ Murid
@@ -75,6 +80,8 @@ addList oldValue = do
                     ++ createColumn title5
             putStrLn line
             createList oldValue 1
+            putStrLn line
+            addList oldValue
         "q" -> print oldValue
         _ -> do
             putStrLn "Wrong input code, try again"
