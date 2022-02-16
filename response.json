@@ -1,0 +1,311 @@
+{
+    "kind": "calendar#events",
+    "etag": "\"p33kdjiukg7qfa0g\"",
+    "summary": "dani.videda@gmail.com",
+    "description": "My personal daily activity",
+    "updated": "2022-02-10T01:45:24.129Z",
+    "timeZone": "Asia/Jakarta",
+    "accessRole": "owner",
+    "defaultReminders": [
+        {
+            "method": "popup",
+            "minutes": 30
+        }
+    ],
+    "nextSyncToken": "COjZy9SB9PUCEOjZy9SB9PUCGAUg8cydywE=",
+    "items": [
+        {
+            "kind": "calendar#event",
+            "etag": "\"3283988942818000\"",
+            "id": "ktgu3kesskq10c288igen3qc1g",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=a3RndTNrZXNza3ExMGMyODhpZ2VuM3FjMWcgZGFuaS52aWRlZGFAbQ",
+            "created": "2022-01-12T12:28:28.000Z",
+            "updated": "2022-01-12T13:34:31.409Z",
+            "summary": "Testing notification",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2022-01-12T21:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "end": {
+                "dateTime": "2022-01-12T22:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "endTimeUnspecified": true,
+            "iCalUID": "ktgu3kesskq10c288igen3qc1g@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3286740788680000\"",
+            "id": "5qfh08qlml4gdraa0usb23j65c",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NXFmaDA4cWxtbDRnZHJhYTB1c2IyM2o2NWMgZGFuaS52aWRlZGFAbQ",
+            "created": "2022-01-28T06:40:35.000Z",
+            "updated": "2022-01-28T11:46:34.340Z",
+            "summary": "Meeting Cardano Indonesia",
+            "description": "\u003ca href=\"https://us02web.zoom.us/j/85231411590?pwd=MjgyZFVkMHd6MjdUNVQ1dmNuNWxEUT09\"\u003ehttps://us02web.zoom.us/j/85231411590?pwd=MjgyZFVkMHd6MjdUNVQ1dmNuNWxEUT09\u003c/a\u003e",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2022-01-28T19:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "end": {
+                "dateTime": "2022-01-28T20:30:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "iCalUID": "5qfh08qlml4gdraa0usb23j65c@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3287171544774000\"",
+            "id": "2bfdiajf4hsrcukhu7i5796d2m",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=MmJmZGlhamY0aHNyY3VraHU3aTU3OTZkMm0gZGFuaS52aWRlZGFAbQ",
+            "created": "2022-01-29T23:24:14.000Z",
+            "updated": "2022-01-30T23:36:12.387Z",
+            "summary": "Cardashift Public Sale",
+            "location": "ico.cardashift.com",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2022-01-30T18:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "end": {
+                "dateTime": "2022-01-31T18:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "iCalUID": "2bfdiajf4hsrcukhu7i5796d2m@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3287620076782000\"",
+            "id": "45e9pea7nq7slbdssf116jkc0i",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NDVlOXBlYTducTdzbGJkc3NmMTE2amtjMGkgZGFuaS52aWRlZGFAbQ",
+            "created": "2022-02-02T12:01:25.000Z",
+            "updated": "2022-02-02T13:53:58.391Z",
+            "summary": "Somethiing",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2022-02-02T21:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "end": {
+                "dateTime": "2022-02-02T21:45:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "iCalUID": "45e9pea7nq7slbdssf116jkc0i@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": true
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3288815452328000\"",
+            "id": "3hps7tt4fvks0c9jj136jenom3",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=M2hwczd0dDRmdmtzMGM5amoxMzZqZW5vbTNfMjAyMTExMDFUMTIwMDAwWiBkYW5pLnZpZGVkYUBt",
+            "created": "2021-11-03T03:17:56.000Z",
+            "updated": "2022-02-09T11:55:26.164Z",
+            "summary": "EMURGO: Cardano Developer Program",
+            "description": "Zoom: \u003ca href=\"https://us06web.zoom.us/j/83990635678?pwd=L211bFZ1YWVqUlJvdTR5d2o1YkFqdz09\"\u003ehttps://us06web.zoom.us/j/83990635678?pwd=L211bFZ1YWVqUlJvdTR5d2o1YkFqdz09\u003c/a\u003e\u003cbr\u003eEMURGO SLP: https://slp.emurgo.in&nbsp;\u003cbr\u003eClass Recording: \u003ca href=\"https://drive.google.com/drive/u/0/folders/1yZgXXcnSYWrtB1exq0PBn_TE-UvjnIC7\"\u003ehttps://drive.google.com/drive/u/0/folders/1yZgXXcnSYWrtB1exq0PBn_TE-UvjnIC7\u003c/a\u003e",
+            "colorId": "4",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2021-11-01T19:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "end": {
+                "dateTime": "2021-11-01T21:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "recurrence": [
+                "RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20220531T165959Z;BYDAY=MO,WE"
+            ],
+            "iCalUID": "3hps7tt4fvks0c9jj136jenom3@google.com",
+            "sequence": 1,
+            "reminders": {
+                "useDefault": true
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3288815452328000\"",
+            "id": "3hps7tt4fvks0c9jj136jenom3_20220112T120000Z",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=M2hwczd0dDRmdmtzMGM5amoxMzZqZW5vbTNfMjAyMjAxMTJUMTIwMDAwWiBkYW5pLnZpZGVkYUBt",
+            "created": "2021-11-03T03:17:56.000Z",
+            "updated": "2022-02-09T11:55:26.164Z",
+            "summary": "EMURGO: Cardano Developer Program",
+            "description": "Zoom: \u003ca href=\"https://us06web.zoom.us/j/83990635678?pwd=L211bFZ1YWVqUlJvdTR5d2o1YkFqdz09\"\u003ehttps://us06web.zoom.us/j/83990635678?pwd=L211bFZ1YWVqUlJvdTR5d2o1YkFqdz09\u003c/a\u003e\u003cbr\u003eEMURGO SLP: https://slp.emurgo.in&nbsp;\u003cbr\u003eClass Recording: \u003ca href=\"https://drive.google.com/drive/u/0/folders/1yZgXXcnSYWrtB1exq0PBn_TE-UvjnIC7\"\u003ehttps://drive.google.com/drive/u/0/folders/1yZgXXcnSYWrtB1exq0PBn_TE-UvjnIC7\u003c/a\u003e",
+            "colorId": "4",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "dateTime": "2022-01-13T07:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "end": {
+                "dateTime": "2022-01-13T09:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "recurringEventId": "3hps7tt4fvks0c9jj136jenom3",
+            "originalStartTime": {
+                "dateTime": "2022-01-12T19:00:00+07:00",
+                "timeZone": "Asia/Jakarta"
+            },
+            "iCalUID": "3hps7tt4fvks0c9jj136jenom3@google.com",
+            "sequence": 2,
+            "reminders": {
+                "useDefault": true
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3288915045208000\"",
+            "id": "616tld757ll00m72b1iucleq0b",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=NjE2dGxkNzU3bGwwMG03MmIxaXVjbGVxMGJfMjAyMTA4MTAgZGFuaS52aWRlZGFAbQ",
+            "created": "2021-08-02T06:56:26.000Z",
+            "updated": "2022-02-10T01:45:22.604Z",
+            "summary": "Tagihan SPayLater",
+            "description": "SPayLater jatuh tempo: Tanggal 25 setiap bulan",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "date": "2021-08-10"
+            },
+            "end": {
+                "date": "2021-08-11"
+            },
+            "recurrence": [
+                "RRULE:FREQ=MONTHLY;BYMONTHDAY=10"
+            ],
+            "transparency": "transparent",
+            "iCalUID": "616tld757ll00m72b1iucleq0b@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": false,
+                "overrides": [
+                    {
+                        "method": "popup",
+                        "minutes": 30
+                    },
+                    {
+                        "method": "email",
+                        "minutes": 450
+                    }
+                ]
+            },
+            "eventType": "default"
+        },
+        {
+            "kind": "calendar#event",
+            "etag": "\"3288915048258000\"",
+            "id": "1p9sat5fjtdj3mf5867mrisl6v",
+            "status": "confirmed",
+            "htmlLink": "https://www.google.com/calendar/event?eid=MXA5c2F0NWZqdGRqM21mNTg2N21yaXNsNnYgZGFuaS52aWRlZGFAbQ",
+            "created": "2022-01-26T01:54:28.000Z",
+            "updated": "2022-02-10T01:45:24.129Z",
+            "summary": "Recover Accounts in Wallet",
+            "creator": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "organizer": {
+                "email": "dani.videda@gmail.com",
+                "self": true
+            },
+            "start": {
+                "date": "2022-02-10"
+            },
+            "end": {
+                "date": "2022-02-11"
+            },
+            "transparency": "transparent",
+            "iCalUID": "1p9sat5fjtdj3mf5867mrisl6v@google.com",
+            "sequence": 0,
+            "reminders": {
+                "useDefault": false,
+                "overrides": [
+                    {
+                        "method": "popup",
+                        "minutes": 30
+                    },
+                    {
+                        "method": "email",
+                        "minutes": 450
+                    }
+                ]
+            },
+            "eventType": "default"
+        }
+    ]
+}
