@@ -52,3 +52,8 @@ parseLog logContents = case (words logContents) of
          in LogMessage arg1 arg2 arg3
     stringMessage ->
         Unknown (unwords stringMessage)
+
+exCase = case "Hello" of
+    [] -> 3
+    ('H' : s) -> length s
+    _ -> 7

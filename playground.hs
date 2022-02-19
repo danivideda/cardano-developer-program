@@ -57,3 +57,18 @@ data Building
       , familyCount :: Int
       }
   deriving (Show)
+
+sum3 :: Integer -> Integer -> Integer -> Integer
+sum3 x y z = x + y + z
+
+data Person = Person String Int Int deriving (Show)
+
+myfunc p@(Person n _ _) = "The name of the field of (" ++ show p ++ ") is " ++ n
+
+data FailableDouble = FailableDouble | OK Double deriving (Show)
+
+a :: FailableDouble
+a = OK 2.0
+
+b :: FailableDouble
+b = FailableDouble
