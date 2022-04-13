@@ -6,6 +6,7 @@ main = do
     text <- readFile "original.txt"
     appendFile "copy.txt" (text ++ "\n")
     writeFile "copyOW.txt" text
+    writeFile "TEST.log" "Hello\nBROO"
     print "done writing"
 
 gabungkan :: [Int] -> String

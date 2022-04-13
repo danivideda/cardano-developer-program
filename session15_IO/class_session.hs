@@ -13,7 +13,11 @@ kuldeep :: Person
 kuldeep = Person{name = "Kuldeep", age = 24}
 
 adithya :: Person
-adithya = kuldeep{name = "Adithya"}
+adithya = kuldeep{name = "Adithya", age = age kuldeep + 2}
 
 printName :: Person -> IO ()
 printName Person{name = x} = putStrLn x
+
+doBlock :: IO ()
+doBlock = do
+    if 1 == 1 then print "something" else print "Broo"

@@ -55,3 +55,7 @@ reader2 :: (Show r, Num r) => Reader r String
 reader2 = Reader $ \r -> "Hasil reader adalah" ++ show (r + 1)
 
 newtype PosisiBola awal akhir = PosisiBola {ubahPosisiXY :: awal -> akhir}
+
+mefunc = do
+    a <- getLine
+    putStrLn a
