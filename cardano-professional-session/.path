@@ -1,0 +1,1 @@
+export ADDR_PATH="$(pwd)/address"
